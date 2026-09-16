@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Crew Story privacy policy">
+  <title>Privacy Policy · Crew Story</title>
+  <style>
+    :root { color-scheme: dark; --bg:#07111f; --card:#101d31; --text:#e8eef8; --muted:#a7b5c9; --gold:#fbbf24; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:linear-gradient(145deg,#07111f,#0b1830); color:var(--text); font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { max-width:760px; margin:0 auto; padding:48px 22px 72px; }
+    header { padding:22px 24px; border:1px solid #25405e; border-radius:22px; background:rgba(16,29,49,.9); }
+    h1 { margin:0 0 8px; font-size:28px; } h2 { margin:34px 0 10px; font-size:20px; color:var(--gold); }
+    p, li { color:var(--muted); } strong { color:var(--text); } a { color:#67e8f9; }
+    .meta { margin:0; font-size:14px; } .notice { border-left:3px solid var(--gold); padding:10px 14px; background:#1d2632; border-radius:0 10px 10px 0; }
+    footer { margin-top:42px; color:var(--muted); font-size:14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Privacy Policy for Crew Story</h1>
+      <p class="meta">Effective date: September 8, 2026 · Last updated: September 8, 2026</p>
+    </header>
+
+    <p class="notice"><strong>Adults only.</strong> Crew Story is an 18+ tool for adult parents and caregivers. It is not directed to children and must not be operated by anyone under 18.</p>
+
+    <h2>Data handled on your device</h2>
+    <p>Stories, page text, selected voice, preferences, and imported image references are stored in Android app-private storage on your device. We do not operate an account system or a server that stores this content.</p>
+    <p>If you enter a Gemini API key, the app stores it in Android app-private <code>SharedPreferences</code> so it can make requests that you initiate. This storage is private to the app but is not separately encrypted by the app. Do not enter an API key that you are not authorized to use.</p>
+
+    <h2>Data sent to third parties</h2>
+    <p>When you choose an AI feature, Crew Story sends the required data directly from your device to the relevant service:</p>
+    <ul>
+      <li><strong>Google Gemini API / Google AI Studio:</strong> story prompts, story text, selected voice settings, and any images you choose to submit for AI generation or analysis. Live voice interaction streams microphone audio and related transcript content in real time.</li>
+      <li><strong>Pollinations AI:</strong> when the image-generation fallback is used, the generated image prompt is sent to Pollinations AI.</li>
+    </ul>
+    <p>These providers process data under their own terms and privacy policies. We do not receive, store, or sell this data on our own servers. Network requests use HTTPS or WSS with TLS.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Microphone:</strong> requested only when an adult starts live voice interaction.</li>
+      <li><strong>Photos and images:</strong> chosen through the Android system picker only when you select images for a story.</li>
+      <li><strong>Notifications and foreground media service:</strong> used for playback controls and continued audio narration when the app is not foregrounded.</li>
+    </ul>
+
+    <h2>Adults only</h2>
+    <p>Do not submit a minor's voice, image, or other personal information to AI services through Crew Story.</p>
+
+    <h2>Your choices</h2>
+    <p>You can delete locally stored stories and remove your API key from the app settings. Uninstalling the app removes its app-private local data, subject to Android backup settings. Requests already sent to a third-party provider are governed by that provider's retention and deletion practices.</p>
+
+    <h2>Changes and contact</h2>
+    <p>We may update this policy when the app's data practices change. For questions, contact <a href="mailto:support@crewpocket.dev">support@crewpocket.dev</a>.</p>
+
+    <footer>
+      <a href="https://policies.google.com/privacy">Google Privacy Policy</a> ·
+      <a href="https://ai.google.dev/gemini-api/terms">Gemini API Terms</a> ·
+      <a href="https://pollinations.ai/">Pollinations AI</a>
+    </footer>
+  </main>
+</body>
+</html>
